@@ -2,7 +2,7 @@ name: Backup Firestore
 
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '*/15 * * * *'
 
 env:
   PROJECT_ID: e-commerce-getx-5b6a6
